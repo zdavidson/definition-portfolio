@@ -1,7 +1,7 @@
 html {
   color: hsl(240, 0%, 96%);
   background-color: hsl(240, 0%, 9%);
-  /*background-image: url(./resources/images/dark-honeycomb.png);*/
+  background-image: url(./resources/images/dark-honeycomb.png);
 }
 
 a {
@@ -10,6 +10,10 @@ a {
 
 h1 {
   display: none;
+}
+
+p {
+  font-size: 1.1rem;
 }
 
 /* FIRST PAGE STYLES */
@@ -76,8 +80,8 @@ h3.phonetic {
 .description {
   float: right;
   width: 30vw;
-  margin-top: 2rem;
-  line-height: 1.5rem;
+  margin-top: 3rem;
+  line-height: 1.75rem;
 }
 
 .sectionLink {
@@ -98,6 +102,7 @@ h3.phonetic {
 .thirdPage {
   width: 100%;
   height: 100vh;
+  padding-top: 10vh;
 }
 
 .contentHolder {
@@ -107,15 +112,20 @@ h3.phonetic {
 .content1, .content2 {
   width: 30vw;
   height: 20vw;
-  background-color:  hsl(240, 0%, 96%);
 }
 
 .content1 {
   float: left;
+  margin-right: 5vw;
 }
 
 .content2 {
   float: right;
+}
+
+img {
+  width: 30vw;
+  height: 30vh;
 }
 
 /* FOURTH PAGE STYLES */
@@ -123,6 +133,18 @@ h3.phonetic {
 .fourthPage {
   width: 100%;
   height: 100vh;
+  padding-top: 10vh;
+}
+
+#reel {
+  width: 45vw;
+  height: 30vh;
+  margin-left: -7vw;
+}
+
+#huffpostVid {
+  width: 35vw;
+  height: 30vh;
 }
 
 /* FIFTH PAGE STYLES */
@@ -130,6 +152,7 @@ h3.phonetic {
 .fifthPage {
   width: 100%;
   height: 100vh;
+  padding-top: 10vh;
 }
 
 /* SIXTH PAGE STYLES */
@@ -137,6 +160,7 @@ h3.phonetic {
 .sixthPage {
   width: 100%;
   height: 100vh;
+  padding-top: 10vh;
 }
 
 .middleTitle {
@@ -179,6 +203,7 @@ h3.phonetic {
 .seventhPage {
   width: 100%;
   height: 100vh;
+  padding-top: 10vh;
 }
 
 .bigTitleBottom {
@@ -193,7 +218,7 @@ h3.phonetic {
 .descriptionLeft {
   float: left;
   width: 34vw;
-  line-height: 1.5rem;
+  line-height: 1.75rem;
 }
 
 .contactForm {
@@ -204,12 +229,14 @@ h3.phonetic {
 }
 
 input {
-  background-color:hsl(240, 0%, 9%);
-  color:hsl(240, 0%, 96%);
+  /*background-color:hsl(240, 0%, 9%);*/
+  /*color:hsl(240, 0%, 96%);*/
+  background-color:hsl(240, 0%, 96%);
   outline: none;
   border:0px solid #cccccc;
   border-bottom: 1px solid hsl(240, 0%, 96%);
   width: 25vw;
+  font-size: 2vh;
 }
 
 .submitButton {
@@ -218,6 +245,7 @@ input {
   width: 10vw;
   margin-top: 5vh;
   padding: 2vh 2vw;
+  text-align: center;
 }
 
 /* EIGTH PAGE STYLES */
@@ -225,6 +253,7 @@ input {
 .eigthPage {
   width: 100%;
   height: 75vh;
+  padding-top: 10vh;
 }
 
 .footer {
