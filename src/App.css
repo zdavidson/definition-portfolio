@@ -1,6 +1,7 @@
 html {
   color: hsl(240, 0%, 96%);
   background-color: hsl(240, 0%, 9%);
+  /*background-image: url(./resources/images/dark-honeycomb.png);*/
 }
 
 a {
