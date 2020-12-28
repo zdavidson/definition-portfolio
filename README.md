@@ -21,7 +21,7 @@ Project is created with:
 ***
 
 ## Setup
-To run this project online, click [here.](www.github.io/zoedavidson/)
+To run this project download and run `npm start`z.
 ***
 
 ## Status
