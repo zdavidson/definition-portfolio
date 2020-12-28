@@ -1,4 +1,4 @@
-# Definition - barebones portfolio
+# Definition - React Portfolio
 
 ## Table of Contents
 - [General Info](###General-Info)
