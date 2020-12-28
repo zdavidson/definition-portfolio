@@ -5,7 +5,6 @@
 - [Technologies](#Technologies)
 - [Setup](#Setup)
 - [Status](#Status)
-***
 
 ## General Info
 Simple porfolio mockup, based on the concept of using a definition to describe oneself.
