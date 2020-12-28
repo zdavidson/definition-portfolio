@@ -1,32 +1,27 @@
-# Definition - barebones portfolio
+# Definition - React Portfolio
 
 ## Table of Contents
 - [General Info](###General-Info)
 - [Technologies](#Technologies)
 - [Setup](#Setup)
 - [Status](#Status)
-***
 
 ## General Info
 Simple porfolio mockup, based on the concept of using a definition to describe oneself.
-***
 
 ## Technologies
-Project is created with:
+Project has been created with:
 - React 17.0.1
 - JSX
 - JavaScript
 - CSS
 - HTML
-***
 
 ## Setup
-To run this project online, click [here.](www.github.io/zoedavidson/)
-***
+To run this project download and run `npm start`
 
 ## Status
-This project is in the first stages, more to come.
-***
+This project is in the initial structural stages.
 
 ## Sources
 This app is inspired by [Mango Media.](www.mango-media.edu)
