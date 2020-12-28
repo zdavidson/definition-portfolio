@@ -15,12 +15,12 @@ function App() {
   return (
     <div className="App">
       <h1>Zoe Davidson</h1>
-      <Homepage />
+      <Homepage id="homepage"/>
       <About />
       <Web />
       <Film />
       <Photography />
-      <Testimonials />
+      {/*<Testimonials />*/}
       <Contact />
       <Footer />
     </div>

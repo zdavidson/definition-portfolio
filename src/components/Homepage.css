@@ -1,0 +1,40 @@
+@import "animate.css";
+
+/* DOTS */
+@keyframes disappear {
+    0% {opacity: 100%}
+    100% {opacity: 0%}
+}
+
+h2.phonetic > span.dot {
+    animation: disappear 30s;
+}
+
+/* LETTERS */
+
+@keyframes appear {
+    0% { opacity: 0% }
+    100% { opacity: 100% }
+}
+
+@keyframes delayedAppearance {
+    0% { opacity: 0% }
+    95% { opacity: 0% }
+    100% { opacity: 100% }
+}
+
+h2.phonetic {
+    animation: appear 2s ease;
+}
+
+h3.phonetic {
+    animation: delayedAppearance 2s;
+}
+
+.noun {
+    animation: delayedAppearance 3.5s;
+}
+
+.definition {
+    animation: delayedAppearance 4.5s;
+}
