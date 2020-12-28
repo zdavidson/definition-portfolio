@@ -21,7 +21,7 @@ Project is created with:
 ***
 
 ## Setup
-To run this project download and run `npm start`z.
+To run this project download and run `npm start`.
 ***
 
 ## Status
