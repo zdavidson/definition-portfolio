@@ -12,7 +12,7 @@ Simple porfolio mockup, based on the concept of using a definition to describe o
 ***
 
 ## Technologies
-Project is created with:
+Project has been created with:
 - React 17.0.1
 - JSX
 - JavaScript
