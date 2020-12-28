@@ -25,7 +25,7 @@ To run this project download and run `npm start`
 ***
 
 ## Status
-This project is in the first stages, more to come.
+This project is in the initial structural stages.
 ***
 
 ## Sources
