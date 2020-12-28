@@ -8,7 +8,6 @@
 
 ## General Info
 Simple porfolio mockup, based on the concept of using a definition to describe oneself.
-***
 
 ## Technologies
 Project has been created with:
@@ -17,15 +16,12 @@ Project has been created with:
 - JavaScript
 - CSS
 - HTML
-***
 
 ## Setup
 To run this project download and run `npm start`
-***
 
 ## Status
 This project is in the initial structural stages.
-***
 
 ## Sources
 This app is inspired by [Mango Media.](www.mango-media.edu)
