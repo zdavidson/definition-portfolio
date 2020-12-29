@@ -118,10 +118,6 @@ a:hover {
   padding-bottom: 15vh;
 }
 
-.contentHolder {
-
-}
-
 .content1, .content2 {
   width: 30vw;
   height: 20vw;
@@ -221,7 +217,7 @@ img:hover {
 
 /* SEVENTH PAGE STYLES */
 
-.seventhPage {;
+.seventhPage {
   padding-top: 20vh;
   padding-bottom: 10vh;
 }
@@ -270,9 +266,6 @@ input {
   text-align: center;
 }
 
-.submitButton:hover {
-
-}
 
 /* EIGTH PAGE STYLES */
 

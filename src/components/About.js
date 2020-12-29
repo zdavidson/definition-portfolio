@@ -11,7 +11,7 @@ const About = () => {
                 </div>
                 <div class="pageLinks">
                     <a class="sectionLink" href="#thirdPage">Websites</a>
-                    <a class="sectionLink" target="_blank" href="https://www.zoeahdavidson.com/film">Films</a>
+                    <a class="sectionLink" rel="noreferrer" target="_blank" href="https://www.zoeahdavidson.com/film">Films</a>
                     {/*<a class="sectionLink" href="#fifthPage">Photography</a>*/}
                 </div>
             </div>

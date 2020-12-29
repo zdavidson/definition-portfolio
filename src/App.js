@@ -6,11 +6,9 @@ import Homepage from './components/Homepage';
 
 import About from './components/About';
 import Web from './components/Web';
-import Film from './components/Film';
-import Photography from './components/Photography';
-import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+
 
 function App() {
   return (
