@@ -18,7 +18,7 @@ Project has been created with:
 - HTML
 
 ## Setup
-To run this project download and run `npm start`
+To run this project click [here](www.zdavidson.github.io/definition-porfolio).
 
 ## Status
 This project is in the initial structural stages.
