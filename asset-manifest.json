@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/definition-portfolio/static/css/main.23745296.chunk.css",
-    "main.js": "/definition-portfolio/static/js/main.d48e250a.chunk.js",
-    "main.js.map": "/definition-portfolio/static/js/main.d48e250a.chunk.js.map",
-    "runtime-main.js": "/definition-portfolio/static/js/runtime-main.ea11f884.js",
-    "runtime-main.js.map": "/definition-portfolio/static/js/runtime-main.ea11f884.js.map",
+    "main.css": "/definition-portfolio/static/css/main.8efe4925.chunk.css",
+    "main.js": "/definition-portfolio/static/js/main.c13fc6eb.chunk.js",
+    "main.js.map": "/definition-portfolio/static/js/main.c13fc6eb.chunk.js.map",
+    "runtime-main.js": "/definition-portfolio/static/js/runtime-main.8638c0a7.js",
+    "runtime-main.js.map": "/definition-portfolio/static/js/runtime-main.8638c0a7.js.map",
     "static/js/2.e071bb75.chunk.js": "/definition-portfolio/static/js/2.e071bb75.chunk.js",
     "static/js/2.e071bb75.chunk.js.map": "/definition-portfolio/static/js/2.e071bb75.chunk.js.map",
-    "static/js/3.2571960b.chunk.js": "/definition-portfolio/static/js/3.2571960b.chunk.js",
-    "static/js/3.2571960b.chunk.js.map": "/definition-portfolio/static/js/3.2571960b.chunk.js.map",
+    "static/js/3.0065d152.chunk.js": "/definition-portfolio/static/js/3.0065d152.chunk.js",
+    "static/js/3.0065d152.chunk.js.map": "/definition-portfolio/static/js/3.0065d152.chunk.js.map",
     "index.html": "/definition-portfolio/index.html",
-    "static/css/main.23745296.chunk.css.map": "/definition-portfolio/static/css/main.23745296.chunk.css.map",
+    "static/css/main.8efe4925.chunk.css.map": "/definition-portfolio/static/css/main.8efe4925.chunk.css.map",
     "static/js/2.e071bb75.chunk.js.LICENSE.txt": "/definition-portfolio/static/js/2.e071bb75.chunk.js.LICENSE.txt",
     "static/media/about.c3366fc1.png": "/definition-portfolio/static/media/about.c3366fc1.png",
-    "static/media/App.css": "/definition-portfolio/static/media/dark-honeycomb.b591ad61.png",
     "static/media/portfolio.b74c5c5b.png": "/definition-portfolio/static/media/portfolio.b74c5c5b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ea11f884.js",
+    "static/js/runtime-main.8638c0a7.js",
     "static/js/2.e071bb75.chunk.js",
-    "static/css/main.23745296.chunk.css",
-    "static/js/main.d48e250a.chunk.js"
+    "static/css/main.8efe4925.chunk.css",
+    "static/js/main.c13fc6eb.chunk.js"
   ]
 }
