@@ -3,6 +3,7 @@ import './App.css';
 
 // Import Components
 import Homepage from './components/Homepage';
+
 import About from './components/About';
 import Web from './components/Web';
 import Film from './components/Film';
@@ -16,10 +17,11 @@ function App() {
     <div className="App">
       <h1>Zoe Davidson</h1>
       <Homepage id="homepage"/>
+ 
       <About />
       <Web />
-      <Film />
-      <Photography />
+      {/*<Film />*/}
+      {/*<Photography />*/}
       {/*<Testimonials />*/}
       <Contact />
       <Footer />

@@ -1,0 +1,25 @@
+@keyframes delayedAppearance {
+    0% { opacity: 0% }
+    95% { opacity: 0% }
+    100% { opacity: 100% }
+}
+
+#email {
+    writing-mode: vertical-rl;
+    position: absolute;
+    bottom: 1vh;
+    padding-top: 1vh;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.25rem;;
+    transform: rotate(180deg);
+    animation: delayedAppearance 7s;
+}
+
+.inner-email-container {
+    width: 30px;
+    height: 250px;
+    margin-top: 10vh;
+    margin-right: .75vw;
+    float: right;
+}

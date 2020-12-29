@@ -1,31 +1,40 @@
 html {
   color: hsl(240, 0%, 96%);
   background-color: hsl(240, 0%, 9%);
-  background-image: url(./resources/images/dark-honeycomb.png);
+  /* background-image: url(./resources/images/dark-honeycomb.png);*/
+  background-color: #233f7a;
 }
 
 a {
   color: hsl(240, 0%, 96%);
+  Font-Family: 'PT Sans', Sans-Serif;
 }
 
 h1 {
   display: none;
 }
 
+h2, h3, h4, h5, h6 {
+  Font-Family: 'Nunito', Sans-Serif;
+}
+
 p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  Font-Family: 'PT Sans', Sans-Serif;
+  letter-spacing: 0.01vw;
+  font-weight: 500;
 }
 
 /* FIRST PAGE STYLES */
 
 .firstPage {
   width: 100%;
-  height: 75vh;
+  height: 100vh;
 }
 
 .title {
   margin-left: 25vw;
-  margin-top: 35vh;
+  margin-top: 20vh;
 }
 
 h2.phonetic {
@@ -57,11 +66,16 @@ h3.phonetic {
   margin-top: .5rem;
 }
 
+a:hover {
+  color: gold;
+}
+
 /* SECOND PAGE STYLES */
 
-.secondPage {
+.secondPage, .thirdPage, .seventhPage, .eighthPage {
   width: 100%;
   height: 75vh;
+  padding-top: 30vh;
 }
 
 .whoWhatWhere, .pageLinks, .contentHolder {
@@ -100,9 +114,8 @@ h3.phonetic {
 /* THIRD PAGE STYLES */
 
 .thirdPage {
-  width: 100%;
-  height: 100vh;
-  padding-top: 10vh;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
 }
 
 .contentHolder {
@@ -126,7 +139,15 @@ h3.phonetic {
 img {
   width: 30vw;
   height: 30vh;
+  border-radius: .75vw;
+  box-shadow: 1vw 1vw 50px black;
 }
+
+img:hover {
+  transform: translate(-10px, -10px);
+  transition: .3s;
+}
+
 
 /* FOURTH PAGE STYLES */
 
@@ -200,10 +221,9 @@ img {
 
 /* SEVENTH PAGE STYLES */
 
-.seventhPage {
-  width: 100%;
-  height: 100vh;
-  padding-top: 10vh;
+.seventhPage {;
+  padding-top: 20vh;
+  padding-bottom: 10vh;
 }
 
 .bigTitleBottom {
@@ -232,6 +252,7 @@ input {
   /*background-color:hsl(240, 0%, 9%);*/
   /*color:hsl(240, 0%, 96%);*/
   background-color:hsl(240, 0%, 96%);
+  background-color: #dbdbd9;
   outline: none;
   border:0px solid #cccccc;
   border-bottom: 1px solid hsl(240, 0%, 96%);
@@ -245,19 +266,23 @@ input {
   width: 10vw;
   margin-top: 5vh;
   padding: 2vh 2vw;
+  padding-right: 6vw;
   text-align: center;
+}
+
+.submitButton:hover {
+
 }
 
 /* EIGTH PAGE STYLES */
 
 .eigthPage {
-  width: 100%;
-  height: 75vh;
-  padding-top: 10vh;
+  padding-top: 15vh;
+  padding-bottom: 45vh;
 }
 
 .footer {
-  width: 50vw;
+  width: 35vw;
 }
 
 .bottom { 
@@ -272,3 +297,16 @@ input {
   margin-top: -7vh;
   margin-right: 0vw;
 }
+
+.arrow:hover {
+  transform: translateY(-1vw);
+  transition: .3s;
+}
+
+.cv {
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-top: -23vh;
+  margin-left: -10vw;
+}
+

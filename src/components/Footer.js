@@ -11,6 +11,9 @@ const Footer = () => {
               <a href="www.linkedin.com/zoëdavidson"><p class= "left footer">LinkedIn</p></a>
               <a href="www.github.com/zdavidson"><p class= "left footer">GitHub</p></a>
             </div>
+            <div>
+              <h5 class="left cv"><a href="#" class="noUnderline"><span>{"{ "}</span>Download My CV<span>{" }"}</span></a></h5>
+            </div>
             <p class="arrow right top"><a class="noUnderline" href="firstPage">↑</a></p>
         </div>
       </div>

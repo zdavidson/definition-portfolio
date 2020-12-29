@@ -1,8 +1,9 @@
 import React from 'react';
+import './Contact.css';
 
 const Contact = () => {
     return (
-        <div class="seventhPage clearfix">
+        <div id="seventhPage" class="seventhPage clearfix">
         <div class="whoWhatWhere">
          
           <h3 class="smallTitle">Talk To Me</h3>

@@ -1,0 +1,22 @@
+@keyframes gradient {
+    0%{background-position:18% 0%}
+    50%{background-position:83% 100%}
+    100%{background-position:18% 0%}
+}
+
+.seventhPage {
+    background: linear-gradient(151deg, #181d65, #31005a);
+    background-size: 400% 400%;
+
+    animation: gradient 22s ease infinite;
+}
+
+/* FONT */
+
+.seventhPage {
+    color:dbdbd9;
+}
+
+.sectionLink {
+    color: dbdbd9;
+}
