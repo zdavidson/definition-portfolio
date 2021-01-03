@@ -1,4 +1,4 @@
-@import './animate.css';
+@import '../animate.css';
 
 @keyframes delayedAppearance {
     0% { opacity: 0% }
@@ -24,6 +24,11 @@
     animation: slideInDown 2s ease 5.5s;
 }
 
+.line3 {
+    margin-top: 2vh;
+    animation: slideInDown 2s ease 5.5s;
+}
+
 li {
     list-style: none;
     font-size: 1.5rem;
@@ -32,3 +37,4 @@ li {
 #menu {
     transform: translateY(-20vh);
 }
+

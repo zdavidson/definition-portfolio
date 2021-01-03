@@ -1,0 +1,49 @@
+.thirdPage {
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+  }
+  
+  .content1, .content2 {
+    width: 30vw;
+    height: 20vw;
+  }
+  
+  .content1 {
+    float: left;
+    margin-right: 5vw;
+  }
+  
+  .content2 {
+    float: right;
+  }
+  
+  img {
+    width: 30vw;
+    height: 30vh;
+    border-radius: .75vw;
+    box-shadow: 1vw 1vw 50px black;
+  }
+  
+  img:hover {
+    transform: translate(-10px, -10px);
+    transition: .3s;
+  }
+
+  @media only screen and (max-width: 600px) {
+      .content1, .content2 {
+          float: none;
+      }
+      .content1 {
+          margin-top: 10vh;
+      }
+
+      .content2 {
+        margin-top: 30vh;
+      }
+
+      img {
+        width: 80vw;
+        display: block;
+        margin-left: -15vw;;
+      }
+  }

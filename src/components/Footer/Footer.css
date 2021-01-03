@@ -1,0 +1,68 @@
+.eigthPage {
+    padding-top: 15vh;
+    padding-bottom: 45vh;
+  }
+  
+  .footer {
+    width: 35vw;
+  }
+  
+  .bottom { 
+    margin-bottom: 1rem;
+  }
+  
+  .info {
+    line-height: .25rem;
+  }
+  
+  .top {
+    margin-top: -7vh;
+    margin-right: 0vw;
+  }
+
+  .left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .arrow {
+    margin-right: 15vw;
+    margin-top: 40vh;
+    font-size: 4rem;
+    padding: 1rem;
+  }
+  
+  .noUnderline {
+    text-decoration: none;
+  }
+
+  .arrow:hover {
+    transform: translateY(-1vw);
+    transition: .3s;
+  }
+  
+  .cv {
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-top: -23vh;
+    margin-left: -10vw;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .eigthPage {
+      padding-top: 15vh;
+      padding-bottom: 15vh;
+    }
+
+    .cv {
+      margin-top: 5vh;
+      margin-left: 0;
+    }
+
+    .arrow {
+      margin-top: 10vh;
+    }
+  }
