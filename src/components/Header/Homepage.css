@@ -64,6 +64,7 @@ h3.phonetic {
   
   .phonetic {
     margin-left: 3vw;
+    z-index: 1;
   }
   
   .noun {

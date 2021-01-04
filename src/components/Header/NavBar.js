@@ -10,9 +10,8 @@ const NavBar = () => {
             <ul class="menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Feedback</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </div>
         </>

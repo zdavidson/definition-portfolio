@@ -1,10 +1,25 @@
+@keyframes gradient {
+    0%{background-position:18% 0%}
+    50%{background-position:83% 100%}
+    100%{background-position:18% 0%}
+}
+
+. {
+    background: linear-gradient(151deg, #181d65, #31005a);
+    background-size: 400% 400%;
+    animation: gradient 22s ease infinite;
+}
+
+
 .wrapper {
     position: fixed;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(-135deg, #c850c0, #4158d8);
+    background: linear-gradient(151deg, #181d65, #31005a);
+    background-size: 400% 400%;
+    animation: gradient 22s ease infinite;
     clip-path: circle(25px at calc(100% - 45px) 45px);
     transition: all 0.3s ease-in-out;
 }
@@ -27,13 +42,15 @@
     color: #fff;
     font-size: 20px;
     cursor: pointer;
-    background: linear-gradient(-135deg, #c850c0, #4158d8);
+    background: linear-gradient(151deg, #181d65, #31005a);
+    background-size: 400% 400%;
+    animation: gradient 22s ease infinite;
     transition: all 0.3s ease;
 }
 
 #active:checked ~ .menu-btn{
     background: #fff;
-    color: #4158d8;
+    color: #233f7a;
 }
 
 #active:checked ~ .menu-btn i:before {
@@ -51,16 +68,16 @@
 }
 
 .wrapper ul li{
-    margin: 15px 0;
+    margin: 1rem 0;
 }
 
 .wrapper ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 500;
-    padding: 5px 50px;
-    line-height: 50px;
+    padding: 1rem 4rem;
+    line-height: 4rem;
     transition: all 0.3s ease;
 }
 
@@ -82,7 +99,7 @@
 }
 
 .wrapper ul li a:hover{
-    color: #4158d8
+    color: #233f7a;
 }
 
 input {
