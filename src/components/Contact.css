@@ -11,6 +11,13 @@
     animation: gradient 22s ease infinite;
 }
 
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /* FONT */
 
 .seventhPage {
