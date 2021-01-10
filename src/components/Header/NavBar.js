@@ -8,10 +8,10 @@ const NavBar = () => {
         <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
         <div class="wrapper">
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Web Development</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="firstpage">Home</a></li>
+                <li><a href="#secondPage">About</a></li>
+                <li><a href="#thirdPage">Web Development</a></li>
+                <li><a href="#seventhPage">Contact</a></li>
             </ul>
         </div>
         </>
