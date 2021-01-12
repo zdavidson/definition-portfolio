@@ -11,6 +11,7 @@ const Contact = () => {
               <p class="descriptionLeft">I respond to all requests within 48 hours during the week. All quotes are in line with current market rates, and are based on the time, skillset, and the scope of work required for the given project.</p>
          
           </div>
+          <div class="form-wrapper">
             <form action="https://formspree.io/f/xwkwwnlr" method="POST" class="contactForm">
               <input type="text" placeholder="Name" name="name" required></input>
               <input type="email" placeholder="Email" name="email" required></input>
@@ -20,6 +21,7 @@ const Contact = () => {
               <input type="text" placeholder="Description" name="description" required></input>
               <input class="submitButton" type="submit" value="Get a Quote" name="submit"></input>
             </form>
+            </div>
       </div>
     )
 }
