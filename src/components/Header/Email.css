@@ -13,7 +13,8 @@
     font-weight: 500;
     font-size: 1.25rem;;
     transform: rotate(180deg);
-    animation: delayedAppearance 7s;
+    z-index: -1;
+    /*animation: delayedAppearance 7s;*/
 }
 
 .inner-email-container {

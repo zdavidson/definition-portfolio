@@ -12,7 +12,7 @@
 
 
 .wrapper {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     height: 100%;
@@ -51,6 +51,7 @@
 #active:checked ~ .menu-btn{
     background: #fff;
     color: #233f7a;
+    position: fixed;
 }
 
 #active:checked ~ .menu-btn i:before {
